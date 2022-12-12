@@ -28,7 +28,6 @@
     {"id":{"name":"Sprite18","path":"sprites/Sprite18/Sprite18.yy",},"order":4,},
     {"id":{"name":"chase_state","path":"scripts/chase_state/chase_state.yy",},"order":11,},
     {"id":{"name":"f_two","path":"fonts/f_two/f_two.yy",},"order":1,},
-    {"id":{"name":"Sprite238","path":"sprites/Sprite238/Sprite238.yy",},"order":33,},
     {"id":{"name":"spr_spark_prime","path":"sprites/spr_spark_prime/spr_spark_prime.yy",},"order":3,},
     {"id":{"name":"spr_walls_in_game","path":"sprites/spr_walls_in_game/spr_walls_in_game.yy",},"order":2,},
     {"id":{"name":"spr_lil_push","path":"sprites/spr_lil_push/spr_lil_push.yy",},"order":1,},
@@ -303,7 +302,6 @@
     {"id":{"name":"obj_spawn_point","path":"objects/obj_spawn_point/obj_spawn_point.yy",},"order":5,},
     {"id":{"name":"spr_idle","path":"sprites/spr_idle/spr_idle.yy",},"order":1,},
     {"id":{"name":"obj_eye_lava_power","path":"objects/obj_eye_lava_power/obj_eye_lava_power.yy",},"order":7,},
-    {"id":{"name":"Room21","path":"rooms/Room21/Room21.yy",},"order":32,},
     {"id":{"name":"spr_gun_power_shot_obtainable","path":"sprites/spr_gun_power_shot_obtainable/spr_gun_power_shot_obtainable.yy",},"order":4,},
     {"id":{"name":"spr_bluekey","path":"sprites/spr_bluekey/spr_bluekey.yy",},"order":0,},
     {"id":{"name":"spr_eye_lava_powered_up","path":"sprites/spr_eye_lava_powered_up/spr_eye_lava_powered_up.yy",},"order":4,},
@@ -476,7 +474,6 @@
     {"roomId":{"name":"rm_laser_level_2","path":"rooms/rm_laser_level_2/rm_laser_level_2.yy",},},
     {"roomId":{"name":"rm_test2","path":"rooms/rm_test2/rm_test2.yy",},},
     {"roomId":{"name":"rm_test3","path":"rooms/rm_test3/rm_test3.yy",},},
-    {"roomId":{"name":"Room21","path":"rooms/Room21/Room21.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":10,},
