@@ -22,6 +22,7 @@
     {"id":{"name":"spr_bullet_fire","path":"sprites/spr_bullet_fire/spr_bullet_fire.yy",},"order":0,},
     {"id":{"name":"spr_eye_hitbox","path":"sprites/spr_eye_hitbox/spr_eye_hitbox.yy",},"order":14,},
     {"id":{"name":"background1","path":"sprites/background1/background1.yy",},"order":0,},
+    {"id":{"name":"Sprite237","path":"sprites/Sprite237/Sprite237.yy",},"order":32,},
     {"id":{"name":"spr_idle_upper_part","path":"sprites/spr_idle_upper_part/spr_idle_upper_part.yy",},"order":3,},
     {"id":{"name":"obj_bullet_enemy_earth","path":"objects/obj_bullet_enemy_earth/obj_bullet_enemy_earth.yy",},"order":7,},
     {"id":{"name":"f_one","path":"fonts/f_one/f_one.yy",},"order":0,},
@@ -39,6 +40,7 @@
     {"id":{"name":"golden_piece","path":"sprites/golden_piece/golden_piece.yy",},"order":3,},
     {"id":{"name":"spr_sand","path":"sprites/spr_sand/spr_sand.yy",},"order":18,},
     {"id":{"name":"rm_boss_5","path":"rooms/rm_boss_5/rm_boss_5.yy",},"order":23,},
+    {"id":{"name":"Room21","path":"rooms/Room21/Room21.yy",},"order":33,},
     {"id":{"name":"spr_power_shot_piece_1","path":"sprites/spr_power_shot_piece_1/spr_power_shot_piece_1.yy",},"order":0,},
     {"id":{"name":"obj_laser_pointer","path":"objects/obj_laser_pointer/obj_laser_pointer.yy",},"order":11,},
     {"id":{"name":"spr_narga_gun","path":"sprites/spr_narga_gun/spr_narga_gun.yy",},"order":7,},
@@ -473,6 +475,7 @@
     {"roomId":{"name":"rm_laser_level_2","path":"rooms/rm_laser_level_2/rm_laser_level_2.yy",},},
     {"roomId":{"name":"rm_test2","path":"rooms/rm_test2/rm_test2.yy",},},
     {"roomId":{"name":"rm_test3","path":"rooms/rm_test3/rm_test3.yy",},},
+    {"roomId":{"name":"Room21","path":"rooms/Room21/Room21.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":10,},
