@@ -105,7 +105,6 @@
     {"id":{"name":"spr_prototype","path":"sprites/spr_prototype/spr_prototype.yy",},"order":2,},
     {"id":{"name":"spr_laser_levels","path":"sprites/spr_laser_levels/spr_laser_levels.yy",},"order":14,},
     {"id":{"name":"spr_water_geiser","path":"sprites/spr_water_geiser/spr_water_geiser.yy",},"order":17,},
-    {"id":{"name":"Sprite79","path":"sprites/Sprite79/Sprite79.yy",},"order":35,},
     {"id":{"name":"spr_pump","path":"sprites/spr_pump/spr_pump.yy",},"order":10,},
     {"id":{"name":"obj_bullet_enemy_earth_powered_up","path":"objects/obj_bullet_enemy_earth_powered_up/obj_bullet_enemy_earth_powered_up.yy",},"order":2,},
     {"id":{"name":"spr_bullet_firework","path":"sprites/spr_bullet_firework/spr_bullet_firework.yy",},"order":23,},
@@ -430,7 +429,6 @@
     {"id":{"name":"spr_sword_lava","path":"sprites/spr_sword_lava/spr_sword_lava.yy",},"order":5,},
     {"id":{"name":"obj_bullet_charge","path":"objects/obj_bullet_charge/obj_bullet_charge.yy",},"order":18,},
     {"id":{"name":"spr_pointer","path":"sprites/spr_pointer/spr_pointer.yy",},"order":0,},
-    {"id":{"name":"Room21","path":"rooms/Room21/Room21.yy",},"order":32,},
     {"id":{"name":"spr_new_tile","path":"sprites/spr_new_tile/spr_new_tile.yy",},"order":8,},
     {"id":{"name":"spr_bullet_impact_narga","path":"sprites/spr_bullet_impact_narga/spr_bullet_impact_narga.yy",},"order":5,},
     {"id":{"name":"background2","path":"sprites/background2/background2.yy",},"order":1,},
@@ -475,7 +473,6 @@
     {"roomId":{"name":"rm_laser_level_2","path":"rooms/rm_laser_level_2/rm_laser_level_2.yy",},},
     {"roomId":{"name":"rm_test2","path":"rooms/rm_test2/rm_test2.yy",},},
     {"roomId":{"name":"rm_test3","path":"rooms/rm_test3/rm_test3.yy",},},
-    {"roomId":{"name":"Room21","path":"rooms/Room21/Room21.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":10,},
