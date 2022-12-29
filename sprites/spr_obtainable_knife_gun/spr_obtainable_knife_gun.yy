@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_obtainable_knife_gun",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 20,
   "height": 19,
   "textureGroupId": {
@@ -28,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d44c519b-baac-460e-a39d-af90da4afbe1",},
+    {"compositeImage":{"FrameId":{"name":"d44c519b-baac-460e-a39d-af90da4afbe1","path":"sprites/spr_obtainable_knife_gun/spr_obtainable_knife_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d44c519b-baac-460e-a39d-af90da4afbe1","path":"sprites/spr_obtainable_knife_gun/spr_obtainable_knife_gun.yy",},"LayerId":{"name":"ee200a51-cbb0-4bbd-a44d-ba0e86b1b4b9","path":"sprites/spr_obtainable_knife_gun/spr_obtainable_knife_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_obtainable_knife_gun","path":"sprites/spr_obtainable_knife_gun/spr_obtainable_knife_gun.yy",},"resourceVersion":"1.0","name":"d44c519b-baac-460e-a39d-af90da4afbe1","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_obtainable_knife_gun",
+    "spriteId": {"name":"spr_obtainable_knife_gun","path":"sprites/spr_obtainable_knife_gun/spr_obtainable_knife_gun.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -44,9 +40,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"5b440758-3464-4592-af24-99cc84d4b6cc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d44c519b-baac-460e-a39d-af90da4afbe1","path":"sprites/spr_obtainable_knife_gun/spr_obtainable_knife_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,13 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_obtainable_knife_gun","path":"sprites/spr_obtainable_knife_gun/spr_obtainable_knife_gun.yy",},
+    "resourceVersion": "1.4",
+    "name": "spr_obtainable_knife_gun",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ee200a51-cbb0-4bbd-a44d-ba0e86b1b4b9","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ee200a51-cbb0-4bbd-a44d-ba0e86b1b4b9","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "player_shooting_objects",
     "path": "folders/Sprites/other/player_shooting_objects.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_obtainable_knife_gun",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

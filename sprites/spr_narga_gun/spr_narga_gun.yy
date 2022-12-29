@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_narga_gun",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 39,
   "height": 22,
   "textureGroupId": {
@@ -28,12 +24,14 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a309058b-44ed-4419-b3bd-9267ee9e1cbd",},
+    {"compositeImage":{"FrameId":{"name":"a309058b-44ed-4419-b3bd-9267ee9e1cbd","path":"sprites/spr_narga_gun/spr_narga_gun.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a309058b-44ed-4419-b3bd-9267ee9e1cbd","path":"sprites/spr_narga_gun/spr_narga_gun.yy",},"LayerId":{"name":"24f943d5-ced4-4277-b920-ec1741dc881a","path":"sprites/spr_narga_gun/spr_narga_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"a309058b-44ed-4419-b3bd-9267ee9e1cbd","path":"sprites/spr_narga_gun/spr_narga_gun.yy",},"LayerId":{"name":"4ef23aa4-5b8c-45c3-84f4-c4961a5276c6","path":"sprites/spr_narga_gun/spr_narga_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"a309058b-44ed-4419-b3bd-9267ee9e1cbd","path":"sprites/spr_narga_gun/spr_narga_gun.yy",},"LayerId":{"name":"9c9c27fe-2288-446a-8fab-fa4c755a8f32","path":"sprites/spr_narga_gun/spr_narga_gun.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_narga_gun","path":"sprites/spr_narga_gun/spr_narga_gun.yy",},"resourceVersion":"1.0","name":"a309058b-44ed-4419-b3bd-9267ee9e1cbd","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_narga_gun",
+    "spriteId": {"name":"spr_narga_gun","path":"sprites/spr_narga_gun/spr_narga_gun.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -44,9 +42,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"ae294eb8-33ec-427a-afac-10c40656797c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a309058b-44ed-4419-b3bd-9267ee9e1cbd","path":"sprites/spr_narga_gun/spr_narga_gun.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,15 +60,24 @@
     "yorigin": 7,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_narga_gun","path":"sprites/spr_narga_gun/spr_narga_gun.yy",},
+    "resourceVersion": "1.4",
+    "name": "spr_narga_gun",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"24f943d5-ced4-4277-b920-ec1741dc881a","visible":true,"isLocked":false,"blendMode":0,"opacity":50.0,"displayName":"saliva",},
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4ef23aa4-5b8c-45c3-84f4-c4961a5276c6","visible":true,"isLocked":false,"blendMode":0,"opacity":80.0,"displayName":"final_piece",},
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9c9c27fe-2288-446a-8fab-fa4c755a8f32","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":50.0,"displayName":"saliva","resourceVersion":"1.0","name":"24f943d5-ced4-4277-b920-ec1741dc881a","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":80.0,"displayName":"final_piece","resourceVersion":"1.0","name":"4ef23aa4-5b8c-45c3-84f4-c4961a5276c6","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9c9c27fe-2288-446a-8fab-fa4c755a8f32","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "weapon",
     "path": "folders/Sprites/shooting_player/weapon.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_narga_gun",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_recharge_station",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 46,
   "height": 53,
   "textureGroupId": {
@@ -28,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"28061a3b-103a-4ce9-a3c0-57e63778619b",},
+    {"compositeImage":{"FrameId":{"name":"28061a3b-103a-4ce9-a3c0-57e63778619b","path":"sprites/spr_recharge_station/spr_recharge_station.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"28061a3b-103a-4ce9-a3c0-57e63778619b","path":"sprites/spr_recharge_station/spr_recharge_station.yy",},"LayerId":{"name":"a5c9fcfa-9901-476d-8b18-67f91a4990aa","path":"sprites/spr_recharge_station/spr_recharge_station.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_recharge_station","path":"sprites/spr_recharge_station/spr_recharge_station.yy",},"resourceVersion":"1.0","name":"28061a3b-103a-4ce9-a3c0-57e63778619b","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_recharge_station",
+    "spriteId": {"name":"spr_recharge_station","path":"sprites/spr_recharge_station/spr_recharge_station.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -44,9 +40,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"b0a9eef6-da43-4cc4-bafa-dac297886c9a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"28061a3b-103a-4ce9-a3c0-57e63778619b","path":"sprites/spr_recharge_station/spr_recharge_station.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,13 +58,22 @@
     "yorigin": 53,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_recharge_station","path":"sprites/spr_recharge_station/spr_recharge_station.yy",},
+    "resourceVersion": "1.4",
+    "name": "spr_recharge_station",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a5c9fcfa-9901-476d-8b18-67f91a4990aa","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a5c9fcfa-9901-476d-8b18-67f91a4990aa","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "player_shooting_objects",
     "path": "folders/Sprites/other/player_shooting_objects.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_recharge_station",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

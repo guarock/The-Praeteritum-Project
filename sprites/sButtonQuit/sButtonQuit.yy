@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "sButtonQuit",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 200,
   "height": 70,
   "textureGroupId": {
@@ -28,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"98f8b7a0-cece-4c36-8673-670a594da9ee",},
+    {"compositeImage":{"FrameId":{"name":"98f8b7a0-cece-4c36-8673-670a594da9ee","path":"sprites/sButtonQuit/sButtonQuit.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"98f8b7a0-cece-4c36-8673-670a594da9ee","path":"sprites/sButtonQuit/sButtonQuit.yy",},"LayerId":{"name":"16296e8c-c5e9-48f5-a7bf-e78779e30127","path":"sprites/sButtonQuit/sButtonQuit.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sButtonQuit","path":"sprites/sButtonQuit/sButtonQuit.yy",},"resourceVersion":"1.0","name":"98f8b7a0-cece-4c36-8673-670a594da9ee","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "sButtonQuit",
+    "spriteId": {"name":"sButtonQuit","path":"sprites/sButtonQuit/sButtonQuit.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -44,9 +40,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"dd180e9b-4c2d-4f3f-baf0-c8ec2e66bbaa","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"98f8b7a0-cece-4c36-8673-670a594da9ee","path":"sprites/sButtonQuit/sButtonQuit.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,9 +58,14 @@
     "yorigin": 35,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"sButtonQuit","path":"sprites/sButtonQuit/sButtonQuit.yy",},
+    "resourceVersion": "1.4",
+    "name": "sButtonQuit",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"16296e8c-c5e9-48f5-a7bf-e78779e30127","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"16296e8c-c5e9-48f5-a7bf-e78779e30127","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": {
     "left": 0,
@@ -95,4 +96,8 @@
     "name": "HUID",
     "path": "folders/Sprites/HUID.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "sButtonQuit",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

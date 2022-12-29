@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_firework_launcher_sand",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 37,
   "height": 10,
   "textureGroupId": {
@@ -28,12 +24,13 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2ae8a092-f015-405d-b4c1-693242f09fd6",},
+    {"compositeImage":{"FrameId":{"name":"2ae8a092-f015-405d-b4c1-693242f09fd6","path":"sprites/spr_firework_launcher_sand/spr_firework_launcher_sand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2ae8a092-f015-405d-b4c1-693242f09fd6","path":"sprites/spr_firework_launcher_sand/spr_firework_launcher_sand.yy",},"LayerId":{"name":"fc1090a8-859c-4857-b2cc-b313a0abafcb","path":"sprites/spr_firework_launcher_sand/spr_firework_launcher_sand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"2ae8a092-f015-405d-b4c1-693242f09fd6","path":"sprites/spr_firework_launcher_sand/spr_firework_launcher_sand.yy",},"LayerId":{"name":"bfb2f46c-839f-4298-9b86-bc9c32f2e80b","path":"sprites/spr_firework_launcher_sand/spr_firework_launcher_sand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_firework_launcher_sand","path":"sprites/spr_firework_launcher_sand/spr_firework_launcher_sand.yy",},"resourceVersion":"1.0","name":"2ae8a092-f015-405d-b4c1-693242f09fd6","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_firework_launcher_sand",
+    "spriteId": {"name":"spr_firework_launcher_sand","path":"sprites/spr_firework_launcher_sand/spr_firework_launcher_sand.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -44,9 +41,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"fdfe24ea-1662-4aed-a8d9-492d2d0b692f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2ae8a092-f015-405d-b4c1-693242f09fd6","path":"sprites/spr_firework_launcher_sand/spr_firework_launcher_sand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,14 +59,23 @@
     "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_firework_launcher_sand","path":"sprites/spr_firework_launcher_sand/spr_firework_launcher_sand.yy",},
+    "resourceVersion": "1.4",
+    "name": "spr_firework_launcher_sand",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"fc1090a8-859c-4857-b2cc-b313a0abafcb","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bfb2f46c-839f-4298-9b86-bc9c32f2e80b","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fc1090a8-859c-4857-b2cc-b313a0abafcb","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"bfb2f46c-839f-4298-9b86-bc9c32f2e80b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "weapon",
     "path": "folders/Sprites/shooting_player/weapon.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_firework_launcher_sand",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

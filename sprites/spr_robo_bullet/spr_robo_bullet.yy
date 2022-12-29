@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_robo_bullet",
   "bboxMode": 0,
   "collisionKind": 4,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 20,
   "height": 27,
   "textureGroupId": {
@@ -28,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d1decb0d-874e-4da5-8fc5-91a8e994273b",},
+    {"compositeImage":{"FrameId":{"name":"d1decb0d-874e-4da5-8fc5-91a8e994273b","path":"sprites/spr_robo_bullet/spr_robo_bullet.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d1decb0d-874e-4da5-8fc5-91a8e994273b","path":"sprites/spr_robo_bullet/spr_robo_bullet.yy",},"LayerId":{"name":"a226b5c3-b119-46ea-9fa4-16450c69b10a","path":"sprites/spr_robo_bullet/spr_robo_bullet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_robo_bullet","path":"sprites/spr_robo_bullet/spr_robo_bullet.yy",},"resourceVersion":"1.0","name":"d1decb0d-874e-4da5-8fc5-91a8e994273b","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_robo_bullet",
+    "spriteId": {"name":"spr_robo_bullet","path":"sprites/spr_robo_bullet/spr_robo_bullet.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -44,9 +40,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"b40698f6-e01a-4ee0-addb-c1b54d4b5384","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d1decb0d-874e-4da5-8fc5-91a8e994273b","path":"sprites/spr_robo_bullet/spr_robo_bullet.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,13 +58,22 @@
     "yorigin": 10,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_robo_bullet","path":"sprites/spr_robo_bullet/spr_robo_bullet.yy",},
+    "resourceVersion": "1.4",
+    "name": "spr_robo_bullet",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"a226b5c3-b119-46ea-9fa4-16450c69b10a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a226b5c3-b119-46ea-9fa4-16450c69b10a","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "robo_bullet",
     "path": "folders/Sprites/shooting_player/weapon/bullets/robo_bullet.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_robo_bullet",
+  "tags": [],
+  "resourceType": "GMSprite",
 }

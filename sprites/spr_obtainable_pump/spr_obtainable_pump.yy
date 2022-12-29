@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSprite",
-  "resourceVersion": "1.0",
-  "name": "spr_obtainable_pump",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -17,7 +14,6 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "DynamicTexturePage": false,
   "width": 32,
   "height": 32,
   "textureGroupId": {
@@ -28,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e71ea50b-2366-4276-912e-d5fc2276968a",},
+    {"compositeImage":{"FrameId":{"name":"e71ea50b-2366-4276-912e-d5fc2276968a","path":"sprites/spr_obtainable_pump/spr_obtainable_pump.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e71ea50b-2366-4276-912e-d5fc2276968a","path":"sprites/spr_obtainable_pump/spr_obtainable_pump.yy",},"LayerId":{"name":"d0104577-e11b-4164-93b4-59b6b15156ef","path":"sprites/spr_obtainable_pump/spr_obtainable_pump.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_obtainable_pump","path":"sprites/spr_obtainable_pump/spr_obtainable_pump.yy",},"resourceVersion":"1.0","name":"e71ea50b-2366-4276-912e-d5fc2276968a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "resourceType": "GMSequence",
-    "resourceVersion": "1.4",
-    "name": "spr_obtainable_pump",
+    "spriteId": {"name":"spr_obtainable_pump","path":"sprites/spr_obtainable_pump/spr_obtainable_pump.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -44,9 +40,9 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"f6044e73-b8b9-4e0b-b5e9-0b4e6a0b7443","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e71ea50b-2366-4276-912e-d5fc2276968a","path":"sprites/spr_obtainable_pump/spr_obtainable_pump.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -62,13 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
+    "parent": {"name":"spr_obtainable_pump","path":"sprites/spr_obtainable_pump/spr_obtainable_pump.yy",},
+    "resourceVersion": "1.4",
+    "name": "spr_obtainable_pump",
+    "tags": [],
+    "resourceType": "GMSequence",
   },
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d0104577-e11b-4164-93b4-59b6b15156ef","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d0104577-e11b-4164-93b4-59b6b15156ef","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "player_shooting_objects",
     "path": "folders/Sprites/other/player_shooting_objects.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "spr_obtainable_pump",
+  "tags": [],
+  "resourceType": "GMSprite",
 }
