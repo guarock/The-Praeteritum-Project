@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_death",
   "spriteId": {
     "name": "spr_death",
     "path": "sprites/spr_death/spr_death.yy",
   },
   "solid": false,
   "visible": false,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -21,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_new_player","path":"objects/obj_new_player/obj_new_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_new_player","path":"objects/obj_new_player/obj_new_player.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -29,8 +33,4 @@
     "name": "other",
     "path": "folders/Objects/new_player/walls and other/other.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_death",
-  "tags": [],
-  "resourceType": "GMObject",
 }

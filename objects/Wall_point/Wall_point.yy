@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "Wall_point",
   "spriteId": {
     "name": "spr_point",
     "path": "sprites/spr_point/spr_point.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -30,8 +34,4 @@
     "name": "walls",
     "path": "folders/Objects/new_player/walls and other/walls.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "Wall_point",
-  "tags": [],
-  "resourceType": "GMObject",
 }

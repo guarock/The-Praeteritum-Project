@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "handgun_click",
   "conversionMode": 0,
   "compression": 2,
   "volume": 0.08,
@@ -17,8 +20,4 @@
     "name": "bullet_sounds",
     "path": "folders/Sounds/bullet_sounds.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "handgun_click",
-  "tags": [],
-  "resourceType": "GMSound",
 }

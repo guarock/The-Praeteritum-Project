@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_obtainable_fire_gun",
   "spriteId": {
     "name": "spr_gun_power_shot_obtainable",
     "path": "sprites/spr_gun_power_shot_obtainable/spr_gun_power_shot_obtainable.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -27,8 +31,4 @@
     "name": "guns",
     "path": "folders/Objects/new_player/guns.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_obtainable_fire_gun",
-  "tags": [],
-  "resourceType": "GMObject",
 }
