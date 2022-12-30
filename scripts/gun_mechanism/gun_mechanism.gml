@@ -1,4 +1,0 @@
-function gun_mechanism()
-{
-
-}
