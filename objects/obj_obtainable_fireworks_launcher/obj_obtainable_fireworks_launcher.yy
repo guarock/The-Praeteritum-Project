@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_obtainable_fireworks_launcher",
   "spriteId": {
     "name": "spr_firework_launcher",
     "path": "sprites/spr_firework_launcher/spr_firework_launcher.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -21,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_new_player","path":"objects/obj_new_player/obj_new_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_new_player","path":"objects/obj_new_player/obj_new_player.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -29,8 +33,4 @@
     "name": "guns",
     "path": "folders/Objects/new_player/guns.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_obtainable_fireworks_launcher",
-  "tags": [],
-  "resourceType": "GMObject",
 }

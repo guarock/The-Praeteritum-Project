@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "enemy_hit_by_narga_bullet",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -17,8 +20,4 @@
     "name": "enemy",
     "path": "folders/Sounds/enemy.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "enemy_hit_by_narga_bullet",
-  "tags": [],
-  "resourceType": "GMSound",
 }

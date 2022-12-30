@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_spawn_point",
   "spriteId": {
     "name": "Sprite126",
     "path": "sprites/Sprite126/Sprite126.yy",
   },
   "solid": false,
   "visible": false,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -27,8 +31,4 @@
     "name": "other",
     "path": "folders/Objects/new_player/walls and other/other.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_spawn_point",
-  "tags": [],
-  "resourceType": "GMObject",
 }

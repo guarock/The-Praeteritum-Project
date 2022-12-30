@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "recharge",
   "conversionMode": 0,
   "compression": 0,
   "volume": 0.25,
@@ -17,8 +20,4 @@
     "name": "bullet_sounds",
     "path": "folders/Sounds/bullet_sounds.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "recharge",
-  "tags": [],
-  "resourceType": "GMSound",
 }

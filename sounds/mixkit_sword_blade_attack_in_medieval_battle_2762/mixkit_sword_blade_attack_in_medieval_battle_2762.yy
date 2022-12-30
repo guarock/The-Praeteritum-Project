@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "mixkit_sword_blade_attack_in_medieval_battle_2762",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -17,8 +20,4 @@
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "mixkit_sword_blade_attack_in_medieval_battle_2762",
-  "tags": [],
-  "resourceType": "GMSound",
 }

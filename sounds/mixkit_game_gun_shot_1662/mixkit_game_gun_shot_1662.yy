@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "mixkit_game_gun_shot_1662",
   "conversionMode": 0,
   "compression": 3,
   "volume": 1.0,
@@ -17,8 +20,4 @@
     "name": "bullet_sounds",
     "path": "folders/Sounds/bullet_sounds.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "mixkit_game_gun_shot_1662",
-  "tags": [],
-  "resourceType": "GMSound",
 }
