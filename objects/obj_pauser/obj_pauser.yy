@@ -1,11 +1,7 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_pauser",
   "spriteId": null,
   "solid": false,
   "visible": true,
-  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -28,4 +24,8 @@
     "name": "important",
     "path": "folders/Objects/important.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_pauser",
+  "tags": [],
+  "resourceType": "GMObject",
 }

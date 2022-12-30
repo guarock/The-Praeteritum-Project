@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSound",
-  "resourceVersion": "1.0",
-  "name": "enemy_hit_by_knife",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -20,4 +17,8 @@
     "name": "enemy",
     "path": "folders/Sounds/enemy.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "enemy_hit_by_knife",
+  "tags": [],
+  "resourceType": "GMSound",
 }

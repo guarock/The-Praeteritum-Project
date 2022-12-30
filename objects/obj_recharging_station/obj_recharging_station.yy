@@ -1,14 +1,10 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_recharging_station",
   "spriteId": {
     "name": "spr_recharge_station",
     "path": "sprites/spr_recharge_station/spr_recharge_station.yy",
   },
   "solid": false,
   "visible": true,
-  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -31,4 +27,8 @@
     "name": "other",
     "path": "folders/Objects/new_player/other.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_recharging_station",
+  "tags": [],
+  "resourceType": "GMObject",
 }

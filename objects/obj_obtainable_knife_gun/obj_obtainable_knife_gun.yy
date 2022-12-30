@@ -1,14 +1,10 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_obtainable_knife_gun",
   "spriteId": {
     "name": "spr_obtainable_knife_gun",
     "path": "sprites/spr_obtainable_knife_gun/spr_obtainable_knife_gun.yy",
   },
   "solid": false,
   "visible": true,
-  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -31,4 +27,8 @@
     "name": "guns",
     "path": "folders/Objects/new_player/guns.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_obtainable_knife_gun",
+  "tags": [],
+  "resourceType": "GMObject",
 }

@@ -1,14 +1,10 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_obtainable_pump",
   "spriteId": {
     "name": "spr_obtainable_pump",
     "path": "sprites/spr_obtainable_pump/spr_obtainable_pump.yy",
   },
   "solid": false,
   "visible": true,
-  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -31,4 +27,8 @@
     "name": "guns",
     "path": "folders/Objects/new_player/guns.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_obtainable_pump",
+  "tags": [],
+  "resourceType": "GMObject",
 }

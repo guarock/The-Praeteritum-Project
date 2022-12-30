@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMTileSet",
-  "resourceVersion": "1.0",
-  "name": "TileSet7",
   "spriteId": {
     "name": "spr_shooting_tile",
     "path": "sprites/spr_shooting_tile/spr_shooting_tile.yy",
@@ -54,4 +51,8 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "TileSet7",
+  "tags": [],
+  "resourceType": "GMTileSet",
 }

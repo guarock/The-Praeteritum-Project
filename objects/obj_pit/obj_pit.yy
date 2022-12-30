@@ -1,14 +1,10 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_pit",
   "spriteId": {
     "name": "spr_warp_block",
     "path": "sprites/spr_warp_block/spr_warp_block.yy",
   },
   "solid": false,
   "visible": false,
-  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -25,7 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_new_player","path":"objects/obj_new_player/obj_new_player.yy",},},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_new_player","path":"objects/obj_new_player/obj_new_player.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,4 +29,8 @@
     "name": "other",
     "path": "folders/Objects/new_player/walls and other/other.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_pit",
+  "tags": [],
+  "resourceType": "GMObject",
 }

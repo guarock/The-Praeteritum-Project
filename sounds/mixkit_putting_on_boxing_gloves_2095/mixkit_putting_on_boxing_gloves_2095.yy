@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSound",
-  "resourceVersion": "1.0",
-  "name": "mixkit_putting_on_boxing_gloves_2095",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -20,4 +17,8 @@
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "mixkit_putting_on_boxing_gloves_2095",
+  "tags": [],
+  "resourceType": "GMSound",
 }

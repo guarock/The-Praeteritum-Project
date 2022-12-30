@@ -5,7 +5,10 @@ max_health_ = health_
 gravity_ = 1
 jump_height = -16
 acceleration_ = 10
+#region shooting angles variable
+shooting_upwards = false
 shooting_downwards = false
+#endregion
 max_hspeed = 16
 current_gun = spr_player_arm_new
 current_bullet = obj_bullet 

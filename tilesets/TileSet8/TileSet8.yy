@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMTileSet",
-  "resourceVersion": "1.0",
-  "name": "TileSet8",
   "spriteId": {
     "name": "spr_water_level_tile",
     "path": "sprites/spr_water_level_tile/spr_water_level_tile.yy",
@@ -54,4 +51,8 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "TileSet8",
+  "tags": [],
+  "resourceType": "GMTileSet",
 }

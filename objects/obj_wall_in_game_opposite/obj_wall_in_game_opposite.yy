@@ -1,14 +1,10 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_wall_in_game_opposite",
   "spriteId": {
     "name": "spr_wall_opposite",
     "path": "sprites/spr_wall_opposite/spr_wall_opposite.yy",
   },
   "solid": false,
   "visible": true,
-  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -34,4 +30,8 @@
     "name": "walls",
     "path": "folders/Objects/new_player/walls and other/walls.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_wall_in_game_opposite",
+  "tags": [],
+  "resourceType": "GMObject",
 }

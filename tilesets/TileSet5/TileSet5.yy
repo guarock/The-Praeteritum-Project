@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMTileSet",
-  "resourceVersion": "1.0",
-  "name": "TileSet5",
   "spriteId": {
     "name": "Sprite40",
     "path": "sprites/Sprite40/Sprite40.yy",
@@ -54,4 +51,8 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "TileSet5",
+  "tags": [],
+  "resourceType": "GMTileSet",
 }

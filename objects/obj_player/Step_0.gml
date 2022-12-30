@@ -21,26 +21,47 @@ else
 	sprite_index = spr_idle
 	image_speed = 1
 	image_index = 0
+	if keyboard_check(vk_up)
+	{
+		shooting_upwards = true
+		sprite_index = spr_idle_upshooting
+		image_speed = 1
+		image_index = 0
+	}
+	else
+	{
+		shooting_upwards = false
+		sprite_index = spr_idle
+	}
 }
 #endregion
 #region vertical movement
 if !place_meeting(x, y+1, obj_wall_in_game)
 {
 	vspeed_ += gravity_   
-	sprite_index = spr_jump
+	sprite_index = spr_new_jump
 	image_speed = 1
-} 
+	if shooting_upwards = true
+	{
+	sprite_index = spr_jump_up
+		image_speed = 1
+	}
+	else
+	{
+		sprite_index = spr_new_jump
+}
+}
 else if place_meeting(x, y+1, obj_wall_in_game) && keyboard_check_pressed(vk_space)
 {
 	vspeed_ = jump_height
 	audio_play_sound(jump_sound, 3, false)
-		sprite_index = spr_jump
+		sprite_index = spr_new_jump
 		image_speed = 1
 }
 move(hspeed_, vspeed_)
 #endregion
 #region shooting downwards
-if keyboard_check(vk_down) & !place_meeting(x, y+1, obj_wall_in_game) 
+if keyboard_check(vk_down) && !place_meeting(x, y+1, obj_wall_in_game) 
  {
 	shooting_downwards = true
 	sprite_index = spr_jump_gun
@@ -94,21 +115,17 @@ if alarm[0] <= 0
 {	
 	 if aiming = 0
 	{
-	#region gun shooting
-		if !place_meeting(x, y+1, obj_wall_in_game) & shooting_downwards = true
-	{
-	vspeed_ = -10
-	} 
-
-	#endregion
+	
 	ammo -= 1
-	var flipped = image_xscale * 2 - 1
-	var gun_x = x - 4 * flipped
-	var x_offset = lengthdir_x(8, 8)
-	var y_offset = lengthdir_y(1, 1)
-	var bullet = instance_create_layer(gun_x + x_offset, y - 4, "Effects", current_bullet);
-	var smoke = instance_create_layer(gun_x + x_offset, y - 4, "Effects", obj_push_smoke);
+	//var flipped = image_xscale * 2 - 1 sostituito col codice che segue
+	//var gun_x = x - 4 * flipped
+	//var x_offset = lengthdir_x(8, 80)
+	//var y_offset = lengthdir_y(8, 80)
+	var delta_x = 6 * image_xscale
+	var bullet = instance_create_layer(x + delta_x, y - 6, "Effects", current_bullet);
+	var smoke = instance_create_layer(x + delta_x, y - 6, "Effects", obj_push_smoke);	
 	audio_play_sound(shot_sound, 2, false)  
+	#region angles and directions
 	if image_xscale = 1 or image_xscale = 0 
 	{
 		bullet_direction = 0
@@ -117,8 +134,21 @@ if alarm[0] <= 0
 	{
 		bullet_direction = 180
 	}
-	bullet.direction = bullet_direction
-	bullet.image_angle = bullet_direction
+	if shooting_downwards = true 
+	{
+		bullet_direction = 270
+	}
+	if shooting_upwards = true
+	{
+		bullet_direction = 90
+	}
+	#endregion
+		#region gun shooting
+		if !place_meeting(x, y+1, obj_wall_in_game) && shooting_downwards = true
+	{
+	vspeed_ = -10
+	} 
+	#endregion
 	bullet.direction = bullet_direction
 	bullet.image_angle = bullet_direction
 	smoke.direction = bullet_direction

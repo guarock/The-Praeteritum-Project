@@ -1,14 +1,10 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_grey_door1",
   "spriteId": {
     "name": "spr_greydoor1",
     "path": "sprites/spr_greydoor1/spr_greydoor1.yy",
   },
   "solid": false,
   "visible": true,
-  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -25,7 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,4 +29,8 @@
     "name": "object",
     "path": "folders/inventory/items,_keys_and_doors/object.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_grey_door1",
+  "tags": [],
+  "resourceType": "GMObject",
 }

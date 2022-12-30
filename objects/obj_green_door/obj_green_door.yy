@@ -1,14 +1,10 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_green_door",
   "spriteId": {
     "name": "spr_greendoor",
     "path": "sprites/spr_greendoor/spr_greendoor.yy",
   },
   "solid": false,
   "visible": true,
-  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -25,7 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,4 +29,8 @@
     "name": "object",
     "path": "folders/inventory/items,_keys_and_doors/object.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_green_door",
+  "tags": [],
+  "resourceType": "GMObject",
 }

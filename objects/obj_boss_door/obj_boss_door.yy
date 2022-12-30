@@ -1,14 +1,10 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_boss_door",
   "spriteId": {
     "name": "spr_end_boss",
     "path": "sprites/spr_end_boss/spr_end_boss.yy",
   },
   "solid": false,
   "visible": true,
-  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -28,7 +24,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -36,4 +32,8 @@
     "name": "doors",
     "path": "folders/Objects/new_player/walls and other/other/doors.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_boss_door",
+  "tags": [],
+  "resourceType": "GMObject",
 }

@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMTileSet",
-  "resourceVersion": "1.0",
-  "name": "tile_set_lava",
   "spriteId": {
     "name": "Sprite18",
     "path": "sprites/Sprite18/Sprite18.yy",
@@ -108,4 +105,8 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "tile_set_lava",
+  "tags": [],
+  "resourceType": "GMTileSet",
 }

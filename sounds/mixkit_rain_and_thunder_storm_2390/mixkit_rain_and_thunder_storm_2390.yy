@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSound",
-  "resourceVersion": "1.0",
-  "name": "mixkit_rain_and_thunder_storm_2390",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -20,4 +17,8 @@
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "mixkit_rain_and_thunder_storm_2390",
+  "tags": [],
+  "resourceType": "GMSound",
 }

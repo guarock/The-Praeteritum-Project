@@ -1,7 +1,4 @@
 {
-  "resourceType": "GMSound",
-  "resourceVersion": "1.0",
-  "name": "shatter_shot",
   "conversionMode": 0,
   "compression": 0,
   "volume": 0.48,
@@ -20,4 +17,8 @@
     "name": "bullet_sounds",
     "path": "folders/Sounds/bullet_sounds.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "shatter_shot",
+  "tags": [],
+  "resourceType": "GMSound",
 }

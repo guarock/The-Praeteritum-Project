@@ -1,14 +1,10 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_bullet_2",
   "spriteId": {
     "name": "spr_bullet_3",
     "path": "sprites/spr_bullet_3/spr_bullet_3.yy",
   },
   "solid": false,
   "visible": true,
-  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -34,4 +30,8 @@
     "name": "bullet",
     "path": "folders/Objects/new_player/guns/bullet.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_bullet_2",
+  "tags": [],
+  "resourceType": "GMObject",
 }

@@ -1,14 +1,10 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_wall_2",
   "spriteId": {
     "name": "Sprite226",
     "path": "sprites/Sprite226/Sprite226.yy",
   },
   "solid": false,
   "visible": true,
-  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -34,4 +30,8 @@
     "name": "walls",
     "path": "folders/Objects/new_player/walls and other/walls.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_wall_2",
+  "tags": [],
+  "resourceType": "GMObject",
 }

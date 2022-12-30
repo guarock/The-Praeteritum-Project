@@ -1,14 +1,10 @@
 {
-  "resourceType": "GMObject",
-  "resourceVersion": "1.0",
-  "name": "obj_bullet_hit_enemy_powered_up",
   "spriteId": {
     "name": "spr_bullet_impact_powered_up",
     "path": "sprites/spr_bullet_impact_powered_up/spr_bullet_impact_powered_up.yy",
   },
   "solid": false,
   "visible": true,
-  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -25,7 +21,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,},
+    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,4 +29,8 @@
     "name": "normal_impacts",
     "path": "folders/Objects/new_player/guns/bullet/bullet_impacts/normal_impacts.yy",
   },
+  "resourceVersion": "1.0",
+  "name": "obj_bullet_hit_enemy_powered_up",
+  "tags": [],
+  "resourceType": "GMObject",
 }
