@@ -1,0 +1,4 @@
+function gun_mechanism()
+{
+
+}

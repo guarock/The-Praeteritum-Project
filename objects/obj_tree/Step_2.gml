@@ -1,0 +1,1 @@
+max_health_ = health_
