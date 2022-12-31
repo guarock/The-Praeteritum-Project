@@ -11,8 +11,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "mixkit_game_gun_shot_1662.mp3",
-  "duration": 1.880825,
+  "soundFile": "mixkit_game_gun_shot_1662.wav",
+  "duration": 1.198027,
   "parent": {
     "name": "bullet_sounds",
     "path": "folders/Sounds/bullet_sounds.yy",

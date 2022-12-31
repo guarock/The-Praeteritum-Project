@@ -1,10 +1,4 @@
-if instance_exists(obj_controller)
-{
-if global.game_state = states.paused 
-{
-	exit
-}
-}
+
 #region movement
 #region horizontal movent
 var hinput = keyboard_check(vk_right) - keyboard_check(vk_left)
@@ -117,10 +111,6 @@ if alarm[0] <= 0
 	{
 	
 	ammo -= 1
-	//var flipped = image_xscale * 2 - 1 sostituito col codice che segue
-	//var gun_x = x - 4 * flipped
-	//var x_offset = lengthdir_x(8, 80)
-	//var y_offset = lengthdir_y(8, 80)
 	var delta_x = 6 * image_xscale
 	var bullet = instance_create_layer(x + delta_x, y - 6, "Effects", current_bullet);
 	var smoke = instance_create_layer(x + delta_x, y - 6, "Effects", obj_push_smoke);	

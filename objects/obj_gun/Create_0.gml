@@ -1,9 +1,0 @@
-//ammo = 40
-//current_gun = spr_gun
-//current_bullet = obj_bullet_normal
-//current_sound = shot_sound
-//current_cooldown = room_speed/8
-//max_ammo = 40
-////recoil_amount = 0
-//bullet_cooldown = current_cooldown
-//alarm[0] = bullet_cooldown

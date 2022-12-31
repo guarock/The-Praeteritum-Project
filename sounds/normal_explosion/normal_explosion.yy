@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "normal_explosion.wav",
-  "duration": 1.37,
+  "duration": 2.598118,
   "parent": {
     "name": "bullet_sounds",
     "path": "folders/Sounds/bullet_sounds.yy",
