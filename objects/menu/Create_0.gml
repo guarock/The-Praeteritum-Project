@@ -28,8 +28,11 @@ enum menu_element_type {
 	shift,
 	toggle,
 	input,
-	
 }
-	
+
+//CREATE MENU PAGES
+ds_menu_main = create_menu_page(
+   ["RESUME",        menu_element_type.script_runner,  resume_game],
+   
 	 
 
