@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_bullet_hit_enemy_lava_geiser",
   "spriteId": {
     "name": "spr_lava_geiser",
     "path": "sprites/spr_lava_geiser/spr_lava_geiser.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -21,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -29,8 +33,4 @@
     "name": "special_impact",
     "path": "folders/Objects/new_player/guns/bullet/bullet_impacts/special_impact.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_bullet_hit_enemy_lava_geiser",
-  "tags": [],
-  "resourceType": "GMObject",
 }

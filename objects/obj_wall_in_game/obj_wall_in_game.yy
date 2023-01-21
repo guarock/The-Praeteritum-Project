@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_wall_in_game",
   "spriteId": {
     "name": "spr_walls_in_game",
     "path": "sprites/spr_walls_in_game/spr_walls_in_game.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -27,8 +31,4 @@
     "name": "walls",
     "path": "folders/Objects/new_player/walls and other/walls.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_wall_in_game",
-  "tags": [],
-  "resourceType": "GMObject",
 }

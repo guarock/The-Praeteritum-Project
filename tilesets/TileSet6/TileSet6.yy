@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "TileSet6",
   "spriteId": {
     "name": "spr_tiles_grass",
     "path": "sprites/spr_tiles_grass/spr_tiles_grass.yy",
@@ -105,8 +108,4 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "TileSet6",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

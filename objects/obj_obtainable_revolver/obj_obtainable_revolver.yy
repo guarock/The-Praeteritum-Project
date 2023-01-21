@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_obtainable_revolver",
   "spriteId": {
     "name": "spr_revolver_package",
     "path": "sprites/spr_revolver_package/spr_revolver_package.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -27,8 +31,4 @@
     "name": "guns",
     "path": "folders/Objects/new_player/guns.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_obtainable_revolver",
-  "tags": [],
-  "resourceType": "GMObject",
 }

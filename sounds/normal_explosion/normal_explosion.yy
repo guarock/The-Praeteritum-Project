@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "normal_explosion",
   "conversionMode": 0,
   "compression": 1,
   "volume": 1.0,
@@ -17,8 +20,4 @@
     "name": "bullet_sounds",
     "path": "folders/Sounds/bullet_sounds.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "normal_explosion",
-  "tags": [],
-  "resourceType": "GMSound",
 }

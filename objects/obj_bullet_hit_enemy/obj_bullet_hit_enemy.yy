@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_bullet_hit_enemy",
   "spriteId": {
     "name": "spr_bullet_impact_2",
     "path": "sprites/spr_bullet_impact_2/spr_bullet_impact_2.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -21,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":7,"eventType":7,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -29,8 +33,4 @@
     "name": "normal_impacts",
     "path": "folders/Objects/new_player/guns/bullet/bullet_impacts/normal_impacts.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_bullet_hit_enemy",
-  "tags": [],
-  "resourceType": "GMObject",
 }

@@ -1,7 +1,7 @@
 if not instance_exists(obj_player) exit;
 var hp_x = 8
 var hp_y = 8
-var hp_width = 398
+var hp_width = 792
 var hp_height = 18
 if instance_exists(obj_player)
 {

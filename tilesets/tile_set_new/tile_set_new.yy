@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "tile_set_new",
   "spriteId": {
     "name": "Sprite225",
     "path": "sprites/Sprite225/Sprite225.yy",
@@ -19,7 +22,7 @@
   "out_columns": 4,
   "tile_count": 16,
   "autoTileSets": [
-    {"tiles":[
+    {"resourceType":"GMAutoTileSet","resourceVersion":"1.0","name":"autotile_1","tiles":[
         0,
         0,
         0,
@@ -67,7 +70,7 @@
         0,
         0,
         0,
-      ],"closed_edge":false,"resourceVersion":"1.0","name":"autotile_1","tags":[],"resourceType":"GMAutoTileSet",},
+      ],"closed_edge":false,},
   ],
   "tileAnimationFrames": [],
   "tileAnimationSpeed": 15.0,
@@ -101,8 +104,4 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "tile_set_new",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

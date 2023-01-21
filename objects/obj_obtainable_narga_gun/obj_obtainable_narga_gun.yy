@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_obtainable_narga_gun",
   "spriteId": {
     "name": "spr_narga_powerup",
     "path": "sprites/spr_narga_powerup/spr_narga_powerup.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -27,8 +31,4 @@
     "name": "guns",
     "path": "folders/Objects/new_player/guns.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_obtainable_narga_gun",
-  "tags": [],
-  "resourceType": "GMObject",
 }
