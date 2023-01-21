@@ -5,6 +5,7 @@ max_health_ = health_
 gravity_ = 1
 jump_height = -16
 acceleration_ = 10
+<<<<<<< HEAD
 #region shooting angles variable
 shooting_upwards = false
 shooting_downwards = false
@@ -12,6 +13,13 @@ shooting_downwards = false
 max_hspeed = 16
 current_gun = spr_player_arm_new
 current_bullet = obj_bullet 
+=======
+max_hspeed = 16
+current_gun = spr_player_arm_new
+current_bullet = obj_bullet 
+free_shot_x = 1
+free_shot_y = 1
+>>>>>>> 58bf88405230b78262ffcdddbfc1d6c172406aa8
 aiming = 0
 ammo = 5
 max_ammo = 80

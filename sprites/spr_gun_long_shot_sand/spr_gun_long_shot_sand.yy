@@ -1,4 +1,10 @@
 {
+<<<<<<< HEAD
+=======
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_gun_long_shot_sand",
+>>>>>>> 58bf88405230b78262ffcdddbfc1d6c172406aa8
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +20,10 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+<<<<<<< HEAD
+=======
+  "DynamicTexturePage": false,
+>>>>>>> 58bf88405230b78262ffcdddbfc1d6c172406aa8
   "width": 48,
   "height": 11,
   "textureGroupId": {
@@ -24,6 +34,7 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
+<<<<<<< HEAD
     {"compositeImage":{"FrameId":{"name":"82ad6777-8c4a-493a-a0a4-50b25dbfc22a","path":"sprites/spr_gun_long_shot_sand/spr_gun_long_shot_sand.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"82ad6777-8c4a-493a-a0a4-50b25dbfc22a","path":"sprites/spr_gun_long_shot_sand/spr_gun_long_shot_sand.yy",},"LayerId":{"name":"2d2e533e-687f-41ed-a3d2-7e8b59fcd51a","path":"sprites/spr_gun_long_shot_sand/spr_gun_long_shot_sand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"82ad6777-8c4a-493a-a0a4-50b25dbfc22a","path":"sprites/spr_gun_long_shot_sand/spr_gun_long_shot_sand.yy",},"LayerId":{"name":"7ff06d46-4a0a-4466-9381-b18e715c0071","path":"sprites/spr_gun_long_shot_sand/spr_gun_long_shot_sand.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
@@ -31,6 +42,14 @@
   ],
   "sequence": {
     "spriteId": {"name":"spr_gun_long_shot_sand","path":"sprites/spr_gun_long_shot_sand/spr_gun_long_shot_sand.yy",},
+=======
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"82ad6777-8c4a-493a-a0a4-50b25dbfc22a",},
+  ],
+  "sequence": {
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_gun_long_shot_sand",
+>>>>>>> 58bf88405230b78262ffcdddbfc1d6c172406aa8
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,9 +60,15 @@
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
+<<<<<<< HEAD
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"be658b00-d978-46de-ae12-9b48a9982834","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"82ad6777-8c4a-493a-a0a4-50b25dbfc22a","path":"sprites/spr_gun_long_shot_sand/spr_gun_long_shot_sand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+=======
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"be658b00-d978-46de-ae12-9b48a9982834","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"82ad6777-8c4a-493a-a0a4-50b25dbfc22a","path":"sprites/spr_gun_long_shot_sand/spr_gun_long_shot_sand.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
+>>>>>>> 58bf88405230b78262ffcdddbfc1d6c172406aa8
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -59,6 +84,7 @@
     "yorigin": 7,
     "eventToFunction": {},
     "eventStubScript": null,
+<<<<<<< HEAD
     "parent": {"name":"spr_gun_long_shot_sand","path":"sprites/spr_gun_long_shot_sand/spr_gun_long_shot_sand.yy",},
     "resourceVersion": "1.4",
     "name": "spr_gun_long_shot_sand",
@@ -68,14 +94,23 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2d2e533e-687f-41ed-a3d2-7e8b59fcd51a","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"7ff06d46-4a0a-4466-9381-b18e715c0071","tags":[],"resourceType":"GMImageLayer",},
+=======
+  },
+  "layers": [
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2d2e533e-687f-41ed-a3d2-7e8b59fcd51a","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"7ff06d46-4a0a-4466-9381-b18e715c0071","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1",},
+>>>>>>> 58bf88405230b78262ffcdddbfc1d6c172406aa8
   ],
   "nineSlice": null,
   "parent": {
     "name": "weapon",
     "path": "folders/Sprites/shooting_player/weapon.yy",
   },
+<<<<<<< HEAD
   "resourceVersion": "1.0",
   "name": "spr_gun_long_shot_sand",
   "tags": [],
   "resourceType": "GMSprite",
+=======
+>>>>>>> 58bf88405230b78262ffcdddbfc1d6c172406aa8
 }
